@@ -192,11 +192,11 @@ Download the dataset from Kaggle and place it inside:
 
 
 
-Train Model
+## Train Model
 
 python main.py
 
-Select:
+## Select:
 
 1 → Train Model
 
@@ -263,4 +263,5 @@ streamlit run dashboard/app.py
 
 Nikhat Jahan
 
+GitHub: https://github.com/Nikhatjahan85
 
