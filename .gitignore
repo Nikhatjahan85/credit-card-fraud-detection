@@ -1,6 +1,80 @@
+
+# PYTHON
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+
+# Virtual Environments
+
 venv/
-__pycache__/
-*.pyc
-*.pkl
+env/
+.venv/
+
+
+# ENV VARIABLES
+
 .env
+.env.*
+
+
+# LOGS & OUTPUTS
+
+
+*.log
+logs/
+outputs/
+
+
+# DATA FILES
+
+
+# Ignore large/raw datasets
+
+data/creditcard.csv
+data/*.zip
+data/*.xlsx
+data/*.parquet
+
+# Keep only sample dataset
+
+!data/sample_creditcard.csv
+
+
+# MODEL FILES
+
+
+models/
+*.pkl
+*.joblib
+*.h5
+
+
+# STREAMLIT
+
+.streamlit/
+
+
+# CACHE & TEMP FILES
+
+
+.cache/
+.pytest_cache/
+*.tmp
+*.bak
+*.swp
+
+
+# OS FILES
+
+
 .DS_Store
+Thumbs.db
+
+
+# IDE / EDITOR
+
+
+.vscode/
+.idea/
