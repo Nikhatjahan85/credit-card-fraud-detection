@@ -1,0 +1,24 @@
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+matplotlib==3.8.4
+seaborn==0.13.2
+streamlit==1.35.0
+imbalanced-learn==0.12.2
+joblib==1.4.2
+
+# Advanced model
+xgboost==2.0.3
+
+# API
+fastapi==0.111.0
+uvicorn==0.30.1
+
+# Explainability
+shap==0.45.1
+
+# Optimization (optional but recommended)
+optuna==3.6.1
+
+# Utility
+requests==2.32.3
